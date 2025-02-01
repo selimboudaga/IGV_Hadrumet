@@ -95,13 +95,13 @@ const TestimonialsHero = () => {
         {/** nationalities */}
         <div className="  mt-[30px] lg:mt-[50px] grid w-full grid-cols-4 gap-y-4  sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 lg:w-[1000px] ">
           {countries.map((country, index) => (
-            <div  className=" flex flex-col group items-center " key={index}>
+            <div  className=" flex flex-col group md:items-center " key={index}>
               <img
-                className=" w-[60px] h-[35px]  md:w-[80px] md:h-[45px] group-hover:scale-110 transition-transform duration-300 cursor-pointer   "
+                className=" w-[60px] h-[35px]  md:w-[80px] md:h-[45px] md:group-hover:scale-110 transition-transform duration-300 cursor-pointer   "
                 src={country.image}
                 alt={country.country}
               />
-              <h1 className=" mt-2 md:group-hover:opacity-100 transition-opacity duration-300 ease-in-out text-gray-800 hidden md:flex opacity-0 text-center text-[18px] font-semibold">
+              <h1 className=" mt-2 md:group-hover:opacity-100 transition-opacity duration-300 ease-in-out text-gray-800 hidden md:flex md:opacity-0 text-center text-[18px] font-semibold">
                 {country.country}
               </h1>
             </div>
