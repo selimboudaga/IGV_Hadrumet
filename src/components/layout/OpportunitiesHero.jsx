@@ -32,7 +32,7 @@ const OpportunitiesHero = () => {
         </div>
 
         <div className=" ">
-          <h1 className="  text-left uppercase leading-tight  drop-shadow-xl   text-blue text-[46px] md:text-7xl lg:text-8xl font-extrabold  tracking-wider md:leading-[80px] lg:leading-[100px]">
+          <h1 className="  text-left uppercase leading-tight  drop-shadow-xl   text-blue text-[41px] md:text-7xl lg:text-8xl font-extrabold  md:tracking-wider md:leading-[80px] lg:leading-[100px]">
             <span className=" md:flex hidden">Discover</span> Our Global
             Opportunities
           </h1>
@@ -48,15 +48,15 @@ const OpportunitiesHero = () => {
             </span>
           </h2>
         </div>
-        <div className=" w-[88%] md:w-[420px] justify-between items-cente flex mt-8">
+        <div className=" w-[320px] md:w-[420px] justify-between items-cente flex mt-8">
           <Link to="collaborations" smooth={true} duration={500}>
-            <button className=" cursor-pointer border-4 border-transparent text-white font-bold flex  bg-[#037EF3]  items-center  py-2 md:py-3  rounded-[12px] px-5 hover:bg-white duration-300 hover:text-blue hover:border-blue  tracking-wide text-[17px] md:text-xl group">
+            <button className=" cursor-pointer border-4 border-transparent text-white font-bold flex  bg-[#037EF3]  items-center  py-2 md:py-3  rounded-[12px] px-3 md:px-5 hover:bg-white duration-300 hover:text-blue hover:border-blue  tracking-wide text-[17px] md:text-xl group">
               Collaborations
             </button>
           </Link>
 
           <Link to="opportunities" smooth={true} duration={500}>
-            <button className="  cursor-pointer border-4 border-blue text-blue font-bold flex  bg-white  items-center  py-2 md:py-3  rounded-[12px] px-5 hover:bg-blue duration-300 hover:text-white   tracking-wide text-[17px] md:text-xl group">
+            <button className="  cursor-pointer border-4 border-blue text-blue font-bold flex  bg-white  items-center  py-2 md:py-3  rounded-[12px] px-3  md:px-5  hover:bg-blue duration-300 hover:text-white   tracking-wide text-[17px] md:text-xl group">
               Opportunities
             </button>
           </Link>

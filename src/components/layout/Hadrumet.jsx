@@ -8,7 +8,7 @@ const Hadrumet = () => {
         
         
         <div className=" mx-auto flex items-center ">
-            <img src={LC} className=' w-[390px] h-[200px]  md:w-[450px] md:h-[240px]  ' alt="" />
+            <img src={LC} className=' w-[360px] h-[185px]  md:w-[450px] md:h-[240px]  ' alt="" />
             
         </div>
       

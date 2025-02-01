@@ -95,9 +95,9 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className=" text-[17px] md:text-[18px] px-3 group tracking-wide flex items-center text-blue font-semibold   ">
+          <button className=" text-[17px] md:text-[18px] px-0 md:px-3 group tracking-wide flex  text-end items-center text-blue font-semibold   ">
             Contact the developper{" "}
-            <span className=" group-hover:translate-x-2 transition-all duration-300 ml-2">
+            <span className=" hidden md:flex group-hover:translate-x-2 transition-all duration-300 ml-2">
               <FaArrowRightLong />{" "}
             </span>
           </button>

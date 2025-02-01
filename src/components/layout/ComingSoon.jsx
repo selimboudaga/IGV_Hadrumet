@@ -29,7 +29,7 @@ const ComingSoon = () => {
           This Page is Coming Soon!
         </h1>
         <p className="text-[22px] drop-shadow-sm font-semibold text-gray-400 mt-4">
-          Stay tuned for updates. We&apos;re working on something amazing! 💙
+          Stay tuned for updates. <br className=" md:hidden" /> We&apos;re working on something amazing! 💙
         </p>
        <p className="text-3xl  mt-2 font-semibold text-blue drop-shadow-sm "> {clock} </p> 
       </div>

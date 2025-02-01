@@ -119,10 +119,10 @@ const MailSection = () => {
 
   return (
     <div id="collaborations" className=" flex flex-col w-full  ">
-      <div className=" flex flex-col  lg:flex-row w-[90%] mx-auto mt-[150px] ">
+      <div className=" flex flex-col  lg:flex-row w-[90%] mx-auto mt-[80px] md:mt-[150px] ">
         {/**Partnership text */}
         <div className=" w-full">
-          <h1 className=" font-semibold drop-shadow-xl text-nowrap text-5xl  lg:text-6xl">
+          <h1 className=" font-semibold drop-shadow-xl text-wrap md:text-nowrap text-5xl  lg:text-6xl">
             Become Our Patner
           </h1>
           <div className=" mt-[30px] lg:w-[88%] ">
@@ -252,7 +252,7 @@ const MailSection = () => {
         <div className=" mx-auto flex items-center ">
           <img
             src={LC}
-            className=" w-[390px] h-[200px]  md:w-[450px] md:h-[240px]  "
+            className=" w-[360px] h-[185px]  md:w-[450px] md:h-[240px]  "
             alt=""
           />
         </div>

@@ -36,12 +36,12 @@ const Projects = () => {
         But last term we worked on:{" "}
       </p>
       {/**projects */}
-      <div className="flex flex-col mt-[80px]  lg:mt-[60px]">
-        <div className=" grid grid-cols-3 md:grid-cols-4  lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-11 ">
+      <div className="flex flex-col mt-[30px] md:mt-[60px]">
+        <div className=" grid grid-cols-4 gap-4 md:grid-cols-4  lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-11 ">
         {projects.map((project, index) => (
-            <div className=" group w-[100px] " key={index}>
-                <img   src={project.image} className=" group-hover:-translate-y-9 group-hover:scale-110 group-hover:duration-300 mx-auto transition-all w-[100px] h-[100px]   cursor-pointer " alt={project.name} />
-                <p className={`text-center opacity-0 group-hover:opacity-100 transition-all group-hover:duration-300 group-hover:-translate-y-6 text-wrap mt-2 font-semibold text-[17px]`} style={{ color: project.color }} >{project.name}</p>
+            <div className=" group xl:w-[100px]  mx-auto" key={index}>
+                <img   src={project.image} className=" md:group-hover:-translate-y-9 md:group-hover:scale-110 duration-300 mx-auto transition-all w-[65px] h-[65px] md:w-[85px] md:h-[85px] xl:w-[100px] xl:h-[100px]   cursor-pointer " alt={project.name} />
+                <p className={`text-center hidden md:flex md:opacity-0 group-hover:opacity-100 transition-all group-hover:duration-300 group-hover:-translate-y-6 text-wrap mt-2 font-semibold text-[17px]`} style={{ color: project.color }} >{project.name}</p>
             </div>
             
         ))}
