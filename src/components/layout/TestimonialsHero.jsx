@@ -95,7 +95,7 @@ const TestimonialsHero = () => {
         {/** nationalities */}
         <div className="  mt-[30px] lg:mt-[50px] grid w-full grid-cols-4 gap-y-4  sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 lg:w-[1000px] ">
           {countries.map((country, index) => (
-            <div  className=" flex flex-col group " key={index}>
+            <div  className=" flex flex-col group items-center " key={index}>
               <img
                 className=" w-[60px] h-[35px]  md:w-[80px] md:h-[45px] group-hover:scale-110 transition-transform duration-300 cursor-pointer   "
                 src={country.image}

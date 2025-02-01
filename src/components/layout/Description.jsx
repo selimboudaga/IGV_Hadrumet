@@ -50,28 +50,28 @@ const Description = () => {
           </div>
           {/** last year numbers */}
           <div className=" md:w-[90%] mt-3   md:mt-9 flex flex-col sm:flex-row justify-between">
-            <div className=" flex w-full">
+            <div className=" flex w-[62%] justify-between">
               {/**Approvals */}
               <div className=" flex  items-center mr-4 sm:mr-0 justify-center ">
                 <h1
-                  className=" text-[22px] sm:text-[22px]  xl:text-[31px] font-semibold  text-blue "
+                  className=" text-[22px] sm:text-[22px]  2xl:text-[31px] font-semibold  text-blue "
                   ref={ref}
                 >
                   <Number n={51} isVisible={inView} />
                 </h1>
-                <h1 className=" ml-1 xl:ml-3 text-center text-gray-700 text-[22px] sm:text-[22px]  xl:text-[31px] font-semibold">
+                <h1 className=" ml-1 xl:ml-3 text-center text-gray-700 text-[22px] sm:text-[22px]  2xl:text-[31px] font-semibold">
                   Approvals
                 </h1>
               </div>
                 {/**Realisations */}
               <div className=" flex  items-center justify-center  ">
                 <h1
-                  className=" text-[22px] sm:text-[22px]  xl:text-[31px] font-semibold  text-blue "
+                  className=" text-[22px] sm:text-[22px]  2xl:text-[31px] font-semibold  text-blue "
                   ref={ref}
                 >
                   <Number n={24} isVisible={inView} />
                 </h1>
-                <h1 className=" ml-1 xl:ml-3 text-center text-gray-700 text-[22px] sm:text-[22px]  xl:text-[31px] font-semibold">
+                <h1 className=" ml-1 xl:ml-3 text-center text-gray-700 text-[22px] sm:text-[22px]  2xl:text-[31px] font-semibold">
                   Realisations
                 </h1>
               </div>
@@ -79,12 +79,12 @@ const Description = () => {
             {/**Nationalities */}
             <div className=" flex mt-1 sm:mt-0  items-center  ">
               <h1
-                className=" text-[22px] sm:text-[22px]  xl:text-[31px] font-semibold  text-blue "
+                className=" text-[22px] sm:text-[22px]  2xl:text-[31px] font-semibold  text-blue "
                 ref={ref}
               >
                 <Number n={13} isVisible={inView} />
               </h1>
-              <h1 className=" ml-1 xl:ml-3 text-center text-gray-700 text-[22px] sm:text-[22px]  xl:text-[31px] font-semibold">
+              <h1 className=" ml-1 xl:ml-3 text-center text-gray-700 text-[22px] sm:text-[22px]  2xl:text-[31px] font-semibold">
                 Nationalities
               </h1>
             </div>
