@@ -185,23 +185,23 @@ export const ListOfOpportunities = () => {
           >
             <p
               style={{ color: opportunity.color }}
-              className="px-3 py-4 text-[17px] font-semibold  "
+              className="px-3 py-4 text-[15px] md:text-[17px]  font-semibold  "
             >
               {opportunity.project}
             </p>
-            <p className="px-3 py-4 text-[17px] md:flex hidden text-gray-800  ">
+            <p className="px-3 py-4 text-[15px] md:text-[17px]  md:flex hidden text-gray-800  ">
               {opportunity.provider}
             </p>
-            <p className=" text-gray-800 md:flex hidden px-3 py-4 text-[17px]  whitespace-nowrap">
+            <p className=" text-gray-800 md:flex hidden px-3 py-4 text-[15px] md:text-[17px]   whitespace-nowrap">
               {opportunity.slotsAvailable}/{opportunity.totalSlots}
             </p>
-            <p className=" text-gray-800 px-3 py-4 text-[17px]  whitespace-nowrap">
+            <p className=" text-gray-800 px-3 py-4 text-[15px] md:text-[17px]   whitespace-nowrap">
               {opportunity.startDate}
             </p>
-            <p className=" text-gray-800 px-3 py-4 text-[17px]  whitespace-nowrap">
+            <p className=" text-gray-800 px-3 py-4 text-[15px] md:text-[17px]   whitespace-nowrap">
               {opportunity.endDate}
             </p>
-            <p className=" text-gray-800 lg:flex hidden px-3 py-4 text-[17px]  whitespace-nowrap">
+            <p className=" text-gray-800 lg:flex hidden px-3 py-4 text-[15px] md:text-[17px]   whitespace-nowrap">
               <span className={` font-semibold text-[17px] `}>
                 {opportunity.flexibility}
               </span>
@@ -209,19 +209,19 @@ export const ListOfOpportunities = () => {
             <p className="px-3 py-4 sm:flex hidden text-[17px] ">
               {opportunity.accommodation}
             </p>
-            <p className=" text-gray-800 hidden sm:flex px-3 py-4 text-[17px]  whitespace-nowrap">
+            <p className=" text-gray-800 hidden sm:flex px-3 py-4 text-[15px] md:text-[17px]   whitespace-nowrap">
               ${opportunity.exchangeFee}
             </p>
-            <p className=" text-gray-800 lg:flex hidden px-3 py-4 text-[17px]  whitespace-nowrap">
+            <p className=" text-gray-800 lg:flex hidden px-3 py-4 text-[15px] md:text-[17px]   whitespace-nowrap">
               {opportunity.food}
             </p>
             <p className="px-3 py-4 xl:flex hidden text-[17px] ">
               {opportunity.otherBenefits}
             </p>
-            <p className="px-3 py-4 text-[17px] xl:flex hidden ">
+            <p className="px-3 py-4 text-[15px] md:text-[17px]  xl:flex hidden ">
               {opportunity.required}
             </p>
-            <p className="px-6 py-4 text-[17px] whitespace-nowrap group">
+            <p className=" ml-3 sm:ml-0  px-6 py-4 text-[17px] whitespace-nowrap group">
               <a
                 href="#"
                 className="group-hover:scale-110 transition-transform duration-300 text-gray-600 hover:text-gray-900"

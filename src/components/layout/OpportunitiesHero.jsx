@@ -50,13 +50,13 @@ const OpportunitiesHero = () => {
         </div>
         <div className=" w-[320px] md:w-[420px] justify-between items-cente flex mt-8">
           <Link to="collaborations" smooth={true} duration={500}>
-            <button className=" cursor-pointer border-4 border-transparent text-white font-bold flex  bg-[#037EF3]  items-center  py-2 md:py-3  rounded-[12px] px-3 md:px-5 hover:bg-white duration-300 hover:text-blue hover:border-blue  tracking-wide text-[17px] md:text-xl group">
+            <button className=" cursor-pointer border-4 border-transparent text-white font-bold flex  bg-[#037EF3]  items-center  py-2 md:py-3  rounded-[12px] px-2 md:px-5 hover:bg-white duration-300 hover:text-blue hover:border-blue  tracking-wide text-[16px] sm:text-[17px] md:text-xl group">
               Collaborations
             </button>
           </Link>
 
           <Link to="opportunities" smooth={true} duration={500}>
-            <button className="  cursor-pointer border-4 border-blue text-blue font-bold flex  bg-white  items-center  py-2 md:py-3  rounded-[12px] px-3  md:px-5  hover:bg-blue duration-300 hover:text-white   tracking-wide text-[17px] md:text-xl group">
+            <button className="  cursor-pointer border-4 border-blue text-blue font-bold flex  bg-white  items-center  py-2 md:py-3  rounded-[12px] px-2  md:px-5  hover:bg-blue duration-300 hover:text-white   tracking-wide text-[16px] sm:text-[17px] md:text-xl group">
               Opportunities
             </button>
           </Link>
