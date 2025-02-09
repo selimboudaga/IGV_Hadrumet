@@ -222,8 +222,8 @@ export const ListOfOpportunities = () => {
               {opportunity.required}
             </p>
             <p className=" ml-3 sm:ml-0  px-6 py-4 text-[17px] whitespace-nowrap group">
-              <a
-                href="#"
+              <a target="_blank"
+                href={opportunity.opportunityLink}
                 className="group-hover:scale-110 transition-transform duration-300 text-gray-600 hover:text-gray-900"
               >
                 <FaExternalLinkAlt size={16} />
