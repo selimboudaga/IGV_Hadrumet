@@ -40,7 +40,7 @@ const Footer = () => {
           </Link>
         </ul>
         {/**large screen social media icons */}
-        <div className=" hidden lg:flex flex-row w-[20%] justify-evenly items-center ">
+        <div className=" hidden lg:flex flex-row w-[130px] justify-evenly items-center ">
           <a
             target="_blank"
             href="https://www.instagram.com/igv.hadrumet?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
       </div>
       {/**small screen social media icons */}
-      <div className=" my-4 mx-auto lg:hidden flex flex-row w-[160px] justify-evenly items-center ">
+      <div className=" my-4 mx-auto lg:hidden flex flex-row w-[120px] justify-evenly items-center ">
         <a
           target="_blank"
           href="https://www.instagram.com/igv.hadrumet?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
@@ -77,7 +77,7 @@ const Footer = () => {
         <a target="_blank" href="https://wa.me/21628778562">
           <FaWhatsapp
             className=" transition-all hover:text-blue duration-300 cursor-pointer"
-            size={32}
+            size={38}
           />
         </a>
       </div>
