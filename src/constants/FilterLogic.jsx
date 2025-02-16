@@ -16,6 +16,7 @@ const FilterLogic = () => {
     setSortDate(prev => !prev);
     setSortPrice(false);
   }
+  
   const handleClickSortPrice = () =>{
     setSortPrice(prev => !prev);
     setSortDate(false);

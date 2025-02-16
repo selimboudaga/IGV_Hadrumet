@@ -1,6 +1,5 @@
 import LClogo from "../../assets/hadrumetLogo.png";
 import { FaInstagram } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
@@ -52,10 +51,7 @@ const Footer = () => {
             />
           </a>
 
-          <FaFacebook
-            className=" transition-all hover:text-blue duration-300 cursor-pointer"
-            size={38}
-          />
+          
 
           <a target="_blank" href="https://wa.me/21628778562">
             <FaWhatsapp
@@ -77,10 +73,7 @@ const Footer = () => {
           />
         </a>
 
-        <FaFacebook
-          className=" transition-all hover:text-blue duration-300 cursor-pointer"
-          size={32}
-        />
+        
         <a target="_blank" href="https://wa.me/21628778562">
           <FaWhatsapp
             className=" transition-all hover:text-blue duration-300 cursor-pointer"
