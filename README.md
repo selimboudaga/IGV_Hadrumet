@@ -1,8 +1,50 @@
-# React + Vite
+# 🌍 AIESEC Incoming Global Volunteer Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the AIESEC Incoming Global Volunteer website! This project provides an interactive platform for showcasing volunteer opportunities, department details, and participant testimonials.
 
-Currently, two official plugins are available:
+## 📝 Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Introduction
+This web application is designed to inform and engage users about AIESEC's Incoming Global Volunteer program. It features a responsive and modern UI, a powerful search tool for filtering and sorting opportunities, and video testimonials from past exchange participants.
+
+![image](https://github.com/yourusername/aiesec-volunteer-website/assets/your-image-url)
+
+## ✨ Features
+- **Responsive Design**: Built with **Tailwind CSS** and **shadcn/ui** for a sleek and modern UI.
+- **Search & Filter Tool**: Users can efficiently browse opportunities using a table with sorting and filtering capabilities.
+- **Video Testimonials**: Integrated **React Player** to showcase participant experiences.
+- **Performance Optimization**: Implemented **lazy loading** to enhance website speed.
+
+## 💻 Technologies Used
+- **Frontend**: ReactJS, TailwindCSS, shadcn/ui
+- **Video Integration**: React Player
+- **Performance**: Lazy Loading
+
+## 🛠️ Installation
+To get a local copy up and running, follow these steps:
+
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/yourusername/aiesec-volunteer-website.git
+    ```
+2. **Navigate to the project directory**
+    ```bash
+    cd aiesec-volunteer-website
+    ```
+3. **Install dependencies**
+    ```bash
+    npm install
+    ```
+4. **Start the development server**
+    ```bash
+    npm run dev
+    ```
+For any questions, feel free to reach out!
+
+**Email**: your.email@example.com
+
+## ⭐ Don't forget to give a star if you like the project! ⭐
