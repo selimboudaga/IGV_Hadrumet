@@ -11,7 +11,8 @@ Welcome to the AIESEC Incoming Global Volunteer website! This project provides a
 ## 🌟 Introduction
 This web application is designed to inform and engage users about AIESEC's Incoming Global Volunteer program. It features a responsive and modern UI, a powerful search tool for filtering and sorting opportunities, and video testimonials from past exchange participants.
 
-![image](https://github.com/selimboudaga/IGV_Hadrumet/src/assets/hero.png)
+![image](https://raw.githubusercontent.com/selimboudaga/IGV_Hadrumet/main/src/assets/hero.png)
+
 
 ## ✨ Features
 - **Responsive Design**: Built with **Tailwind CSS** and **shadcn/ui** for a sleek and modern UI.
