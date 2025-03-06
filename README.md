@@ -45,13 +45,13 @@ To get a local copy up and running, follow these steps:
     ```
 4. **Start the development server**
     ```bash
-    npm start
+    npm run dev
     ```
 
 ## 🚀 Usage
 1. **Run the application**
     ```bash
-    npm start
+    npm run dev
     ```
 2. **Access the website**
     Open your browser and navigate to `http://localhost:3000`.
