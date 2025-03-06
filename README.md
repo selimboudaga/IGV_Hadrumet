@@ -67,6 +67,6 @@ Contributions are welcome! Follow these steps:
 
 For any questions, feel free to reach out!
 
-**Email**: your.email@example.com
+**Email**: salim8boudaga@gmail.com
 
 ## ⭐ Don't forget to give a star if you like the project! ⭐
